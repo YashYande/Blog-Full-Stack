@@ -14,7 +14,7 @@ import authRoutes from './routes/auth.router'
     
  })
  app.use(cors({
-    origin:'https://blog-full-stack-git-master-yash-yandes-projects.vercel.app' ,
+    origin:['https://blog-full-stack-rho.vercel.app','https://blog-full-stack-git-master-yash-yandes-projects.vercel.app','http://localhost:5173'],
     credentials:true,
 }))
 app.use('/',userRoutes);
