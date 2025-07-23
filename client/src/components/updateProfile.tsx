@@ -60,7 +60,7 @@ export default function UpdateProfileForm() {
 
     try {
       const response = await axios.patch(
-        `http://localhost:4000/api/user/${user.id}`,
+        `https://blog-full-stack-us4u.onrender.com/api/user/${user.id}`,
         formData,
         {
           headers: {

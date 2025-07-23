@@ -14,7 +14,7 @@ import authRoutes from './routes/auth.router'
     
  })
  app.use(cors({
-    origin:'http://localhost:5173' ,
+    origin:'https://blog-full-stack-rho.vercel.app/' ,
     credentials:true,
 }))
 app.use('/',userRoutes);

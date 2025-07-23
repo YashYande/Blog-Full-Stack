@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:4000/api',
+  baseURL:'https://blog-full-stack-us4u.onrender.com/api',
   withCredentials: true,
 });
 
